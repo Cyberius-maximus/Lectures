@@ -10,10 +10,10 @@ public class VotingEligibilityChecker {
         int age = scanner.nextInt();
 
         
-        if (age > 18) {
-            System.out.println("You can vote.");
+        if (age >= 18) {
+            System.out.println("You can vote");
         } else {
-            System.out.println("You are still a minor.");
+            System.out.println("You are still a minor");
         }
 
         scanner.close();
