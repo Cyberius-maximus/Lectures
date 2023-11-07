@@ -19,7 +19,7 @@ public class AvgThreeNum {
 
   public static double avg3(double a, double b, double c)
     {
-        return (a + b + c) / 3;
+        return (a + b + c) / 3.0;
     }
 }
 
