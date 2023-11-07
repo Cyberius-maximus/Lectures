@@ -23,25 +23,25 @@ public class WeekdayCalculator {
         String dayName;
         switch (dayNumber) {
             case 1:
-                dayName = "Sunday";
-                break;
-            case 2:
                 dayName = "Monday";
                 break;
-            case 3:
+            case 2:
                 dayName = "Tuesday";
                 break;
-            case 4:
+            case 3:
                 dayName = "Wednesday";
                 break;
-            case 5:
+            case 4:
                 dayName = "Thursday";
                 break;
-            case 6:
+            case 5:
                 dayName = "Friday";
                 break;
-            case 7:
+            case 6:
                 dayName = "Saturday";
+                break;
+            case 7:
+                dayName = "Sunday";
                 break;
             default:
                 dayName = null;
