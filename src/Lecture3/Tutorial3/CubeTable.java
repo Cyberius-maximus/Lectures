@@ -1,4 +1,4 @@
-package Tutorial3;
+package Lecture3.Tutorial3;
 import java.util.Scanner;
 
 public class CubeTable {
